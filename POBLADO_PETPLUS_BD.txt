@@ -10,19 +10,49 @@ INSERT INTO estado_hora VALUES(1,'Disponible'),(2,'Cancelado'),(3,'No disponible
 -- COLOR --
 INSERT INTO color VALUES (1,'Negro');
 INSERT INTO color VALUES (2,'Blanco');
-INSERT INTO color VALUES (3,'Café');
+INSERT INTO color VALUES (3,'Cafe claro');
 INSERT INTO color VALUES (4,'Manchas');
+INSERT INTO color VALUES (5,'Cafe oscuro');
+INSERT INTO color VALUES (6,'Marron');
+INSERT INTO color VALUES (7,'Plomo');
+INSERT INTO color VALUES (8,'Amarillo');
+INSERT INTO color VALUES (9,'Naranjo');
+INSERT INTO color VALUES (10,'Verde');
+INSERT INTO color VALUES (11,'Blanco y negro');
+INSERT INTO color VALUES (12,'Chocolate');
+INSERT INTO color VALUES (13,'Caoba');
+INSERT INTO color VALUES (14,'Tricolor');
+INSERT INTO color VALUES (15,'Ruana');
+INSERT INTO color VALUES (16,'Multicolor');
+INSERT INTO color VALUES (17,'Bicolor');
+INSERT INTO color VALUES (18,'Carey');
+INSERT INTO color VALUES (19,'Puntos');
+INSERT INTO color VALUES (20,'Lila');
+
 -- ESPECIE --
 INSERT INTO especie VALUES (1,'Perro');
 INSERT INTO especie VALUES (2,'Gato');
 INSERT INTO especie VALUES (3,'Conejo');
 INSERT INTO especie VALUES (4,'Ave');
+INSERT INTO especie VALUES (5,'Hamster');
+INSERT INTO especie VALUES (6,'Erizo');
+INSERT INTO especie VALUES (7,'Pez');
+INSERT INTO especie VALUES (8,'Cobaya');
+INSERT INTO especie VALUES (9,'Huron');
+INSERT INTO especie VALUES (10,'Serpiente');
+INSERT INTO especie VALUES (11,'Chinchilla');
+INSERT INTO especie VALUES (12,'Tortuga');
+INSERT INTO especie VALUES (13,'Camaleon');
+INSERT INTO especie VALUES (14,'Iguana');
+
 -- RAZA  --
 INSERT INTO raza VALUES (1,'Kiltro',1);
 INSERT INTO raza VALUES (2,'Akita',1);
 INSERT INTO raza VALUES (3,'Puddle',1);
 INSERT INTO raza VALUES (4,'Chihuahua',1);
 INSERT INTO raza VALUES (5,'PUG',1);
+INSERT INTO raza VALUES (6,'No tiene raza',1);
+
 -- SEXO --
 INSERT INTO sexo VALUES (1,'Macho');
 INSERT INTO sexo VALUES (2,'Hembra');
@@ -52,6 +82,68 @@ INSERT INTO dueno VALUES(7,'Antonio','23132321','correo@gmail.com');
 INSERT INTO dueno VALUES(8,'Ignacio','23132321','correo@gmail.com');
 INSERT INTO dueno VALUES(9,'Julio','23132321','correo@gmail.com');
 INSERT INTO dueno VALUES(10,'Michael','23132321','correo@gmail.com');
+
+INSERT INTO dueno (id_dueno,nombre_completo,telefono,correo)
+VALUES
+  (11,"Cara R. Lindsay","+56 9 87789475","cararlindsay@outlook.com"),
+  (12,"Quinn T. Henry","+56 9 42359569","quinnthenry9358@yahoo.com"),
+  (13,"Cairo C. Wallace","+56 9 46935762","cairocwallace8693@yahoo.cl"),
+  (14,"Jenette N. Reed","+56 9 63515794","jenettenreed@google.com"),
+  (15,"Sara W. Pearson","+56 9 87160304","sarawpearson@hotmail.cl"),
+  (16,"Shaine M. Baldwin","+56 9 81718658","shainembaldwin7310@icloud.com"),
+  (17,"Warren Galloway","+56 9 45222635","warrengalloway4552@google.com"),
+  (18,"Hu Boyd","+56 9 97857666","huboyd@google.com"),
+  (19,"Patrick O. Duffy","+56 9 33075895","patrickoduffy@outlook.com"),
+  (20,"Wyatt Chandler","+56 9 14136549","wyattchandler@hotmail.com");
+INSERT INTO dueno (id_dueno,nombre_completo,telefono,correo)
+VALUES
+  (21,"Justin F. Abbott","+56 9 54748406","justinfabbott@google.cl"),
+  (22,"Olivia Baldwin","+56 9 01132067","oliviabaldwin2258@outlook.com"),
+  (23,"Chloe B. Richard","+56 9 86785463","chloebrichard@google.cl"),
+  (24,"Shad Farley","+56 9 63393531","shadfarley2132@yahoo.com"),
+  (25,"Vaughan Finch","+56 9 40235780","vaughanfinch@icloud.cl"),
+  (26,"Wang Estes","+56 9 86224011","wangestes8128@yahoo.cl"),
+  (27,"Maia Bonner","+56 9 42171856","maiabonner@yahoo.cl"),
+  (28,"Rajah Q. Hampton","+56 9 67284767","rajahqhampton@yahoo.cl"),
+  (29,"Rhona Chen","+56 9 45739222","rhonachen3085@google.com"),
+  (30,"Carol K. Rojas","+56 9 21069214","carolkrojas@outlook.cl");
+INSERT INTO dueno (id_dueno,nombre_completo,telefono,correo)
+VALUES
+  (31,"Hanae X. Cook","+56 9 62563080","hanaexcook8346@icloud.cl"),
+  (32,"Victor Cortez","+56 9 38853663","victorcortez7746@outlook.com"),
+  (33,"Shafira Kirk","+56 9 26454635","shafirakirk9587@outlook.com"),
+  (34,"Grant Mcknight","+56 9 22728978","grantmcknight8667@hotmail.com"),
+  (35,"Sebastian Michael","+56 9 26461581","sebastianmichael@yahoo.cl"),
+  (36,"Brynne Grimes","+56 9 98452601","brynnegrimes8066@hotmail.com"),
+  (37,"Macy E. Sosa","+56 9 84478411","macyesosa6013@hotmail.com"),
+  (38,"Martena Hammond","+56 9 61752159","martenahammond@icloud.cl"),
+  (39,"Sandra Thornton","+56 9 41155837","sandrathornton@outlook.cl"),
+  (40,"Evangeline Sloan","+56 9 62524283","evangelinesloan@yahoo.com");
+INSERT INTO dueno (id_dueno,nombre_completo,telefono,correo)
+VALUES
+  (41,"Jeremy Z. Riggs","+56 9 48926142","jeremyzriggs@google.cl"),
+  (42,"TaShya Guerra","+56 9 27475674","tashyaguerra800@yahoo.com"),
+  (43,"Benedict B. Ross","+56 9 72674466","benedictbross@outlook.cl"),
+  (44,"Madeson Y. Johnson","+56 9 62758335","madesonyjohnson@icloud.cl"),
+  (45,"Seth E. Morris","+56 9 84879448","sethemorris5655@hotmail.com"),
+  (46,"Gay Thornton","+56 9 61236529","gaythornton3560@google.cl"),
+  (47,"Cooper Wiley","+56 9 98656405","cooperwiley@icloud.com"),
+  (48,"Cedric Odom","+56 9 68753358","cedricodom8239@hotmail.cl"),
+  (49,"Ruth R. Bass","+56 9 77837874","ruthrbass9879@google.cl"),
+  (50,"Fulton Hunter","+56 9 60255771","fultonhunter@hotmail.cl");
+INSERT INTO dueno (id_dueno,nombre_completo,telefono,correo)
+VALUES
+  (51,"Venus Richmond","+56 9 08021687","venusrichmond@hotmail.cl"),
+  (52,"Hakeem Lee","+56 9 16474023","hakeemlee@icloud.com"),
+  (53,"Naida Q. Cox","+56 9 20447345","naidaqcox@hotmail.cl"),
+  (54,"Ursula J. Morgan","+56 9 36565277","ursulajmorgan1181@icloud.com"),
+  (55,"Noah Hines","+56 9 35870541","noahhines@outlook.cl"),
+  (56,"Leslie Petty","+56 9 14826155","lesliepetty1471@outlook.com"),
+  (57,"Adrian X. Frazier","+56 9 92567875","adrianxfrazier@google.cl"),
+  (58,"Caleb Rocha","+56 9 15481631","calebrocha4392@google.com"),
+  (59,"Chester L. Weber","+56 9 82629834","chesterlweber@icloud.com"),
+  (60,"Noel V. Miller","+56 9 97919780","noelvmiller5068@hotmail.cl");
+
 -- VETERINARIA -- 
 INSERT INTO veterinaria VALUES (1,'CDVET','Av. José Miguel Carrera 12668, El Bosque, RM','4324324324','vet@correo.cl',1,'exoticos'),
 							   (2,'Todo Animal','Av. Las Acacias 3052, San Bernardo, RM','4324324324','vet@correo.cl',1,'exoticos'),
@@ -62,22 +154,23 @@ INSERT INTO veterinaria VALUES (1,'CDVET','Av. José Miguel Carrera 12668, El Bo
                                (7,'PetHappy','Eyzaguirre 307, San Bernardo, RM','4324324324','vet@correo.cl',1,'Exoticos'),
                                (8,'Tus Mascotas','Alcalde Eduardo Castillo Velasco 4890, Ñuñoa, RM','4324324324','vet@correo.cl',20,'Exoticos');
 -- EMPLEADO -- 
-INSERT INTO emp VALUES (1,'Claudia',1,1),
-					   (2,'Pedro',2,2),
-                       (3,'Maria',3,3),
-                       (4,'Luisa',4,4),
-                       (5,'Juan',5,5);
+INSERT INTO emp VALUES (1,'Claudia',1,1,'Veterinaria'),
+					   (2,'Pedro',2,2,'Veterinario'),
+                       (3,'Maria',3,3,'Veterinaria'),
+                       (4,'Luisa',4,4,'Secretaria'),
+                       (5,'Juan',5,5,'Tecnico Veterinario');
+
 -- RESERVA HORAS -- 
-INSERT INTO reserva_horas VALUES(1,'10:00',1,1),(2,'11:00',1,1),(3,'12:00',1,1),(4,'13:00',1,1),(5,'14:00',1,1),(6,'15:00',1,1),(7,'16:00',1,1),(8,'17:00',1,1),(9,'18:00',1,1);
-INSERT INTO reserva_horas VALUES(10,'10:00',2,1),(20,'11:00',2,1),(30,'12:00',2,1),(40,'13:00',2,1),(50,'14:00',2,1),(60,'15:00',2,1),(70,'16:00',2,1),(80,'17:00',2,1),(90,'18:00',2,1);
-INSERT INTO reserva_horas VALUES(100,'10:00',3,1),(200,'11:00',3,1),(300,'12:00',3,1),(400,'13:00',3,1),(500,'14:00',3,1),(600,'15:00',3,1),(700,'16:00',3,1),(800,'17:00',3,1),(900,'18:00',3,1);
+INSERT INTO reserva_horas VALUES(1,'10:00',1,1,'Disponible'),(2,'11:00',1,1,'Disponible'),(3,'12:00',1,1,'Disponible'),(4,'13:00',1,1,'Disponible'),(5,'14:00',1,1,'Disponible'),(6,'15:00',1,1,'Disponible'),(7,'16:00',1,1,'Disponible'),(8,'17:00',1,1,'Disponible'),(9,'18:00',1,1,'Disponible');
+INSERT INTO reserva_horas VALUES(10,'10:00',2,1,'Disponible'),(11,'11:00',2,1,'Disponible'),(12,'12:00',2,1,'Disponible'),(13,'13:00',2,1,'Disponible'),(14,'14:00',2,1,'Disponible'),(15,'15:00',2,1,'Disponible'),(16,'16:00',2,1,'Disponible'),(17,'17:00',2,1,'Disponible'),(18,'18:00',2,1,'Disponible');
+INSERT INTO reserva_horas VALUES(19,'10:00',3,1,'Disponible'),(20,'11:00',3,1,'Disponible'),(21,'12:00',3,1,'Disponible'),(22,'13:00',3,1,'Disponible'),(23,'14:00',3,1,'Disponible'),(24,'15:00',3,1,'Disponible'),(25,'16:00',3,1,'Disponible'),(26,'17:00',3,1,'Disponible'),(27,'18:00',3,1,'Disponible');
 -- ANIMAL -- 
-INSERT INTO animal VALUES (1,'Nina','12312312a',1,2,1,2,2);
-INSERT INTO animal VALUES (2,'Roco','hhgjfhg6',2,2,1,2,2);
-INSERT INTO animal VALUES (3,'Felix','12312312a',3,2,1,2,2);
+INSERT INTO animal VALUES (1,'Nina','No tiene',22,1,2,2,2,'Sangre 000');
+INSERT INTO animal VALUES (2,'Roco','12673267a',2,2,1,2,2,'Sangre 000');
+INSERT INTO animal VALUES (3,'Pistacho','12312312a',3,2,3,2,2,'Sangre 000');
 -- CONSULTA RESERVA -- 
-INSERT INTO consulta_reserva VALUES (1,'01/01/2022','No come',6.5,1,1);
-INSERT INTO consulta_reserva VALUES (2,'01/01/2022','Se queja',6.5,2,2);
+INSERT INTO consulta_reserva VALUES (1,'01/01/2022',1,1);
+INSERT INTO consulta_reserva VALUES (2,'01/01/2022',2,2);
 -- CONSULTA PROCEDIMIENTO -- 
-INSERT INTO consulta_procedimiento VALUES (1,'No come debido a que tiene problemas en su aparato digestivo',1,1,1);
-INSERT INTO consulta_procedimiento VALUES (2,'Tiene dolores',2,2,2);
+INSERT INTO consulta_procedimiento VALUES (1,'No come debido a que tiene problemas en su aparato digestivo',1,1,1,'No come',6.5,'22/11/2022');
+INSERT INTO consulta_procedimiento VALUES (2,'Tiene dolores',2,2,2,'Tiene un tumor',4,5,'22/11/2022');
