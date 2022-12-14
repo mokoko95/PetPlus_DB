@@ -1,0 +1,83 @@
+-- Procedimiento --
+INSERT INTO procedimiento VALUES(1,'Antibioticos','-');
+INSERT INTO procedimiento VALUES(2,'Vacunas','-');
+INSERT INTO procedimiento VALUES(3,'Corte de uñas','-');
+INSERT INTO procedimiento VALUES(4,'Lavado','-');
+INSERT INTO procedimiento VALUES(5,'Inyección','-');
+INSERT INTO procedimiento VALUES(6,'Inyección letal','-');
+-- ESTADO HORAS --
+INSERT INTO estado_hora VALUES(1,'Disponible'),(2,'Cancelado'),(3,'No disponible');
+-- COLOR --
+INSERT INTO color VALUES (1,'Negro');
+INSERT INTO color VALUES (2,'Blanco');
+INSERT INTO color VALUES (3,'Café');
+INSERT INTO color VALUES (4,'Manchas');
+-- ESPECIE --
+INSERT INTO especie VALUES (1,'Perro');
+INSERT INTO especie VALUES (2,'Gato');
+INSERT INTO especie VALUES (3,'Conejo');
+INSERT INTO especie VALUES (4,'Ave');
+-- RAZA  --
+INSERT INTO raza VALUES (1,'Kiltro',1);
+INSERT INTO raza VALUES (2,'Akita',1);
+INSERT INTO raza VALUES (3,'Puddle',1);
+INSERT INTO raza VALUES (4,'Chihuahua',1);
+INSERT INTO raza VALUES (5,'PUG',1);
+-- SEXO --
+INSERT INTO sexo VALUES (1,'Macho');
+INSERT INTO sexo VALUES (2,'Hembra');
+-- ESTADO  --
+INSERT INTO estado VALUES (1,'Activo');
+INSERT INTO estado VALUES (2,'No activo');
+-- TIPO EMPLEADO --
+INSERT INTO tipo_emp VALUES (1,'Veterinario(a)'),(2,'Técnico(a) Veterinario(a)'),(3,'Secretario(a)'),(4,'Administrador(a)'),(5,'Recepcionista'),(6,'Vendedor(a)');
+-- REGION -- 
+INSERT INTO region VALUES(1,'Región Metropolitana');
+INSERT INTO region VALUES(2,'Región de Valparaíso');
+-- COMUNA -- 
+INSERT INTO comuna VALUES (1,'San Bernardo',1),(2,'Cerrillos',1),(3,'Cerro Navia',1),(4,'Conchalí',1),(5,'El Bosque',1),(6,'Estación Central',1),
+					      (7,'Huechuraba',1),(8,'Independencia',1),(9,'La Cisterna',1),(10,'La Florida',1),(11,'La Granja',1),(12,'La Pintana',1),
+                          (13,'La Reina',1),(14,'Las Condes',1),(15,'Lo Barnechea',1),(16,'Lo Espejo',1),(17,'Lo Prado',1),(18,'Macul',1),(19,'Maipú',1),
+                          (20,'Ñuñoa',1),(21,'Pedro Aguirre Cerda',1),(22,'Peñalolén',1),(23,'Providencia',1),(24,'Pudahuel',1),(25,'Quilicura',1),(26,'Quillicura',1),
+                          (27,'Quinta Normal',1),(28,'Recoleta',1),(29,'Renca',1),(30,'San Joaquín',1),(31,'San Miguel',1),(32,'San Ramón',1),(33,'Santiago',1),(34,'Vitacura',1),
+                          (35,'Puente Alto',1),(36,'San José de Maipo',1),(37,'Pirque',1),(38,'Calera de Tango',1),(39,'Buin',1),(40,'Paine',1),(41,'Colina',1),(42,'Lampa',1),(43,'Til-Til',1);
+-- DUENO --
+INSERT INTO dueno VALUES(1,'Luis','231321','correo@gmail.com');
+INSERT INTO dueno VALUES(2,'Pedro','23132321','correo@gmail.com');
+INSERT INTO dueno VALUES(3,'Juan','23132321','correo@gmail.com');
+INSERT INTO dueno VALUES(4,'Diego','23132321','correo@gmail.com');
+INSERT INTO dueno VALUES(5,'Pablo','23132321','');
+INSERT INTO dueno VALUES(6,'Lucas','23132321','correo@gmail.com');
+INSERT INTO dueno VALUES(7,'Antonio','23132321','correo@gmail.com');
+INSERT INTO dueno VALUES(8,'Ignacio','23132321','correo@gmail.com');
+INSERT INTO dueno VALUES(9,'Julio','23132321','correo@gmail.com');
+INSERT INTO dueno VALUES(10,'Michael','23132321','correo@gmail.com');
+-- VETERINARIA -- 
+INSERT INTO veterinaria VALUES (1,'CDVET','Av. José Miguel Carrera 12668, El Bosque, RM','4324324324','vet@correo.cl',1,'exoticos'),
+							   (2,'Todo Animal','Av. Las Acacias 3052, San Bernardo, RM','4324324324','vet@correo.cl',1,'exoticos'),
+                               (3,'Pokrant Valeri','Av. Lo blanco 261, El bosque, RM','4324324324','vet@correo.cl',1,'exoticos'),
+                               (4,'Clínica Veterinaria San Bernardo','Colón Sur 899, San Bernardo, RM','4324324324','vet@correo.cl',1,'Exoticos'),
+                               (5,'Reino Animal','Pinto 124, San Bernardo, RM','4324324324','vet@correo.cl',1,'Exoticos'),
+                               (6,'Dogtor','Eyzaguirre 19, San Bernardo, RM','4324324324','vet@correo.cl',1,'Exoticos'),
+                               (7,'PetHappy','Eyzaguirre 307, San Bernardo, RM','4324324324','vet@correo.cl',1,'Exoticos'),
+                               (8,'Tus Mascotas','Alcalde Eduardo Castillo Velasco 4890, Ñuñoa, RM','4324324324','vet@correo.cl',20,'Exoticos');
+-- EMPLEADO -- 
+INSERT INTO emp VALUES (1,'Claudia',1,1),
+					   (2,'Pedro',2,2),
+                       (3,'Maria',3,3),
+                       (4,'Luisa',4,4),
+                       (5,'Juan',5,5);
+-- RESERVA HORAS -- 
+INSERT INTO reserva_horas VALUES(1,'10:00',1,1),(2,'11:00',1,1),(3,'12:00',1,1),(4,'13:00',1,1),(5,'14:00',1,1),(6,'15:00',1,1),(7,'16:00',1,1),(8,'17:00',1,1),(9,'18:00',1,1);
+INSERT INTO reserva_horas VALUES(10,'10:00',2,1),(20,'11:00',2,1),(30,'12:00',2,1),(40,'13:00',2,1),(50,'14:00',2,1),(60,'15:00',2,1),(70,'16:00',2,1),(80,'17:00',2,1),(90,'18:00',2,1);
+INSERT INTO reserva_horas VALUES(100,'10:00',3,1),(200,'11:00',3,1),(300,'12:00',3,1),(400,'13:00',3,1),(500,'14:00',3,1),(600,'15:00',3,1),(700,'16:00',3,1),(800,'17:00',3,1),(900,'18:00',3,1);
+-- ANIMAL -- 
+INSERT INTO animal VALUES (1,'Nina','12312312a',1,2,1,2,2);
+INSERT INTO animal VALUES (2,'Roco','hhgjfhg6',2,2,1,2,2);
+INSERT INTO animal VALUES (3,'Felix','12312312a',3,2,1,2,2);
+-- CONSULTA RESERVA -- 
+INSERT INTO consulta_reserva VALUES (1,'01/01/2022','No come',6.5,1,1);
+INSERT INTO consulta_reserva VALUES (2,'01/01/2022','Se queja',6.5,2,2);
+-- CONSULTA PROCEDIMIENTO -- 
+INSERT INTO consulta_procedimiento VALUES (1,'No come debido a que tiene problemas en su aparato digestivo',1,1,1);
+INSERT INTO consulta_procedimiento VALUES (2,'Tiene dolores',2,2,2);
